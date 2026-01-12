@@ -1,0 +1,10 @@
+.form-dangky-input{
+    border-radius: 4px;
+    margin: 2px;
+}
+.form-dangky-btn{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #0000ff;
+    color: aliceblue;
+}

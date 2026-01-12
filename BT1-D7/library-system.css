@@ -1,0 +1,20 @@
+* {
+    padding: 0 10px;
+    margin: 5px 0 0;
+}
+header{
+    border-radius: 5px;
+    box-shadow: 0 0 10px 1px black;
+    padding: 2%;
+}
+
+header h1{
+    size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+
+footer{
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
