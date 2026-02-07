@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bai1.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: red;">Flexbox cơ bản</h1>
+    <div id="container-1">
+        <div class="item">Item 1</div>
+        <div class="item special">Item Special</div>
+        <div class="item">Item 1</div>
+        <div class="item">Item 1</div>
+        <div class="item">Item 1</div>
+    </div>
+    <hr>
+    <div id="container-2">
+        <div class="item">Item 1</div>
+        <div class="item">Item 1</div>
+        <div class="item">Item 1</div>
+        <div class="item">Item 1</div>
+    </div>
+    <hr>
+    <div id="container-3">
+        <div class="item">Item 1</div>
+        <div class="item">Item 1</div>
+        <div class="item special">Special</div>
+        <div class="item">Item 1</div>
+    </div>
+    <hr>
+    <h2>Flex Direction</h2>
+    <p style="color: blue; font-style: italic;">flex-direction: row/row-reverse/column/column-reverse;</p>
+    <div id="container-4">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+    <hr>
+    <h2>Justify</h2>
+    <p style="color: blue; font-style: italic;">justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left |
+    right ... + safe | unsafe;</p>
+    <div id="container-6">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+    <hr>
+
+    <h2>Align Items</h2>
+    <p style="color: blue; font-style: italic;">align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end |
+    self-start | self-end + ... safe | unsafe;</p>
+    <ul>
+        <li>stretch(Mặc định): kéo giãn để lấp đầy vùng chứa (vẫn tuân thủ chiều rộng tối thiểu/tối đa)</li>
+        <li>flex-start/start: các mục được đặt ở đầu trục chéo</li>
+        <li>center: các mục được căn giữa theo trục chéo</li>
+        <li>baseline: các mục được căn chỉnh sao cho đường cơ sở của chúng thẳng hàng</li>
+    </ul>
+    <div id="container-7">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+    <hr>
+    
+    <h2>Align Content</h2>
+    <i>Điều này giúp căn chỉnh các dòng của vùng chứa flex khi có khoảng trống thừa trên trục ngang, tương tự như cách
+    justify-contentcăn chỉnh các mục riêng lẻ trên trục chính.</i>
+    <p style="color: blue; font-style: italic;">align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end |
+    baseline | first baseline | last baseline + ... safe | unsafe;</p>
+    <div id="container-4">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+    </div>
+    <hr>
+
+    <h2>Nội dung khác</h2>
+    <i>gap: Kiểm soát rõ ràng khoảng cách giữa các phần tử flex</i>
+    <i>order: thuộc tính kiểm soát thứ tự</i>
+    <i>flex-grow: xác định khả năng mở rộng của một phần tử</i>
+    <i>flex-shrink: xác định khả năng thu nhỏ của một phần tử</i>
+    <h3>các viết tắt:</h3>
+    <p style="color: blue; font-style: italic;">flex: none | [ <'flex-grow'> <'flex-shrink'>? || <'flex-basis'> ]</p>
+    <hr>
+
+    <h1 style="text-align: center; color: red;">Grid cơ bản</h1>
+
+    <ul>
+        <li>Một số nội dung: grid-template-columns, grid-template-rows, grid-column-start, grid-column-end, gap (column gap, row
+            gap, gap)</li>
+        <li>Trong grid container, có thể định nghĩa alignment với một số thuộc tính sau: justify-content, align-content,
+            place-content (thuộc tính tắt của align-content và justify-content)</li>
+        <li>Grid Items: grid-column-start/end; grid-row-start/end; grid column/row</li>
+        <li>Có thể chỉnh vị trí item theo ý muốn</li>
+    </ul>
+    <!-- <p style="color: blue; font-style: italic;">Một số nội dung: grid-template-columns, grid-template-rows, grid-column-start, grid-column-end, </p> -->
+    <div id="wrapper-1">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+    </div>
+</body>
+</html>
